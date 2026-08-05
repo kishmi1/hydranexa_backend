@@ -1,9 +1,5 @@
+import { redirect } from "next/navigation";
+
 export default function Home() {
-  return (
-    <div className="flex min-h-screen items-center justify-center bg-gray-100">
-      <h1 className="text-5xl font-bold text-blue-600">
-        HydraNexa Admin
-      </h1>
-    </div>
-  );
+  redirect("/login");
 }
